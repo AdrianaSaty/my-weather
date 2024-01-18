@@ -10,10 +10,16 @@
 
 <body>
     <h1>Como escolher uma API?</h1>
-    <form>
-        <input type="text" required>
-        <button>Pesquisar</button>
+    <form id="weatherForm">
+        <input type="text" name="city" id="city" required>
+        <button type="submit" id="seachButton">🔍</button>
     </form>
+    <div id="weather">
+        <h2>São Paulo</h2>
+        <img src="https://openweathermap.org/img/w/02d.png" alt="">
+        <p>description</p>
+        <p>temperature</p>
+    </div>
     <script src="index.js"></script>
 </body>
 
